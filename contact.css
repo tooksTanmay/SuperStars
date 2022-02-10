@@ -1,0 +1,37 @@
+#ContactfirstSection{
+    background-image: url('./images/About2.jpeg');
+}
+.contact-img{
+    height: 40px;
+    width: 40px;
+}
+.contact-links-div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-links-div div{
+    margin: 30px;
+}
+.image-link{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-family: 'Outfit';
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 120px;
+}
+.whatsapp{
+    width: 205px;
+    margin: 0px !important;
+}
+.image-link span{
+    padding-left: 10px;
+    display: inline;
+}
+.contact-interior-div1 , .contact-interior-div2 , .contact-interior-div3, .contact-interior-div4{
+    width: 120px;
+}

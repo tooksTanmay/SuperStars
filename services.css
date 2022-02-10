@@ -1,0 +1,49 @@
+#ServicesfirstSection {
+    background-image: url("./images/Services2.jpeg");
+}
+.screenshots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form span{
+    font-family: 'Outfit';
+    font-size: 20px;
+}
+.ServicesHR{
+    width: 90vw;
+    height: 3px;
+    border-color: rgb(0, 160, 48);
+    background-color: rgb(0, 160, 48);
+    margin: 20px 0px;
+}
+.commercialsLink{
+    margin: 10px 0px;
+    text-decoration: none;
+    font-family: 'Outfit';
+    color: rgb(0, 71, 185);
+    /* text-decoration: underline black; */
+}
+.commercials{
+    margin-top: 30px;
+    width: 100%;
+}
+.ss1{
+    height: 450px;
+}
+.ss2{
+    display: none;
+}
+.ss3{
+    display: none;
+}
+.Gform{
+    width: 95vw;
+}

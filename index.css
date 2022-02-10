@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navigationBar {
+  width: 100%;
+  background-color: #4682b4;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  z-index: 2;
+}
+#hamburger {
+  display: none;
+}
+.lines {
+  width: 28px;
+  height: 3.25px;
+  margin: 3px 0px;
+  background-color: #c83200;
+}
+#headerLogo {
+  display: inline-block;
+  font-family: "Bangers", cursive;
+  color: black;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-left: 10px;
+}
+#containerForNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#headerLinksUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.linkLi {
+  margin: 10px;
+}
+.links {
+  text-decoration: none;
+  color: #191970;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+#container {
+  width: 100%;
+}
+.sectionH1 > h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 45px;
+  color: white;
+  position: relative;
+  z-index: 1;
+  top: 60%;
+}
+#HomefirstSection {
+  background-image: url("./images/professional3.jpg");
+}
+.firstSections {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#secondSection {
+  margin: 20px 30px;
+  padding: 10px;
+}
+#secondSection > h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin: 20px;
+}
+#secondSection > p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  width: 90%;
+  height: 3px;
+  background-color: rgb(92, 92, 139);
+  border-color: rgb(92, 92, 139);
+}
+#thirdSection {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#thirdSection > h2 {
+  font-size: 32px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  text-align: center;
+  font-weight: 800;
+}
+.plansDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.plans {
+  height: 300px;
+  width: 300px;
+  border: 6px solid black;
+  border-radius: 20px;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  font-family: "outfit";
+}
+.plans > span {
+  font-size: 28px;
+}
+.plans > ul > li {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.social-links {
+  display: none;
+}
+#basic {
+  border-color: #9b6127;
+  color: #5d3a17;
+  font-size: 16px;
+}
+#pro {
+  border-color: gold;
+  color: rgb(160, 136, 0);
+  font-size: 16px;
+}
+#medium {
+  border-color: silver;
+  color: rgb(78, 78, 78);
+  font-size: 16px;
+}
+.moneyVector {
+  height: 120px;
+  width: 120px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+

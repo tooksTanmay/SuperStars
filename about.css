@@ -1,0 +1,12 @@
+#AboutfirstSection{
+    background-image: url('./images/About3.jpeg');
+}
+.blogDiv{
+    text-align: center;
+}
+.blogDiv a{
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-size: 18px;
+    color: green;
+}
